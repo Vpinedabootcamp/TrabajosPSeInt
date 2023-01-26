@@ -1,0 +1,20 @@
+Algoritmo sin_titulo
+	Escribir 'Hola, bienvenidas'
+	Escribir 'En qué deseas especializarte?'
+	Leer a
+	Escribir Concatenar('Me alegra que quieras especializarte en ',a)
+	Escribir 'Ingresa un número'
+	Leer num1
+	Escribir 'Ingresa el segundo número'
+	Leer num2
+	resultado = num1 + num2
+	Escribir Concatenar('El resultado de la suma es:',ConvertirATexto(resultado))
+	Si resultado % 2 <> 0 Entonces
+		Escribir "El resultado de su suma es un número par"
+	SiNo
+		Escribir "El resultado de su suma es un número impar"
+	FinSi
+	// Concatene el resultado de la suma mostrando ambas variables seguido 
+	// de su resultado ej: 3 + 8 = 11
+	// Concatenar(ConvertirAtexto(num1),"+"),Concatenar(num2)
+FinAlgoritmo
